@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\visual stuidio code\\MMORPG 게임개발 시리즈 CSharp 기초 프로그래밍 입문\\MMORPG 게임개발 시리즈 CSharp 기초 프로그래밍 입문.csproj": {}
+    "C:\\GitHub\\OnlineLectureStudy\\MMORPG 게임개발 시리즈 CSharp 기초 프로그래밍 입문\\MMORPG 게임개발 시리즈 CSharp 기초 프로그래밍 입문.csproj": {}
   },
   "projects": {
-    "D:\\visual stuidio code\\MMORPG 게임개발 시리즈 CSharp 기초 프로그래밍 입문\\MMORPG 게임개발 시리즈 CSharp 기초 프로그래밍 입문.csproj": {
+    "C:\\GitHub\\OnlineLectureStudy\\MMORPG 게임개발 시리즈 CSharp 기초 프로그래밍 입문\\MMORPG 게임개발 시리즈 CSharp 기초 프로그래밍 입문.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\visual stuidio code\\MMORPG 게임개발 시리즈 CSharp 기초 프로그래밍 입문\\MMORPG 게임개발 시리즈 CSharp 기초 프로그래밍 입문.csproj",
+        "projectUniqueName": "C:\\GitHub\\OnlineLectureStudy\\MMORPG 게임개발 시리즈 CSharp 기초 프로그래밍 입문\\MMORPG 게임개발 시리즈 CSharp 기초 프로그래밍 입문.csproj",
         "projectName": "MMORPG 게임개발 시리즈 CSharp 기초 프로그래밍 입문",
-        "projectPath": "D:\\visual stuidio code\\MMORPG 게임개발 시리즈 CSharp 기초 프로그래밍 입문\\MMORPG 게임개발 시리즈 CSharp 기초 프로그래밍 입문.csproj",
+        "projectPath": "C:\\GitHub\\OnlineLectureStudy\\MMORPG 게임개발 시리즈 CSharp 기초 프로그래밍 입문\\MMORPG 게임개발 시리즈 CSharp 기초 프로그래밍 입문.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\visual stuidio code\\MMORPG 게임개발 시리즈 CSharp 기초 프로그래밍 입문\\obj\\",
+        "outputPath": "C:\\GitHub\\OnlineLectureStudy\\MMORPG 게임개발 시리즈 CSharp 기초 프로그래밍 입문\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

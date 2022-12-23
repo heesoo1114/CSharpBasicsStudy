@@ -6,4 +6,12 @@
     <RootNamespace>MMORPG_게임개발_시리즈_CSharp_기초_프로그래밍_입문</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="ref and out.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ref and out.cs" />
+  </ItemGroup>
+
 </Project>
