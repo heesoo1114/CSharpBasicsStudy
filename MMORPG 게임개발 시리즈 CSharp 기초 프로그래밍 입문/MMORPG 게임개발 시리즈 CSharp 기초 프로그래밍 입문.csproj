@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="ref and out.cs" />
+    <Compile Remove="0-Test.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="ref and out.cs" />
+    <None Include="0-Test.cs" />
   </ItemGroup>
 
 </Project>
