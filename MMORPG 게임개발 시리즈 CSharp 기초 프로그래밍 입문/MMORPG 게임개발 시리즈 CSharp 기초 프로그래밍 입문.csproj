@@ -10,16 +10,19 @@
     <Compile Remove="0-Test.cs" />
     <Compile Remove="factorial_연습문제.cs" />
     <Compile Remove="ref and out.cs" />
+    <Compile Remove="문자열.cs" />
     <Compile Remove="복사와 참조.cs" />
     <Compile Remove="상속_상속성.cs" />
     <Compile Remove="상수형과 열거형.cs" />
     <Compile Remove="오버라이딩_다형성.cs" />
     <Compile Remove="오버로딩.cs" />
     <Compile Remove="접근한정자_은닉성.cs" />
+    <Compile Remove="클래스 형식 변환.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="0-Test.cs" />
+    <None Include="문자열.cs" />
     <None Include="복사와 참조.cs" />
     <None Include="상속_상속성.cs" />
     <None Include="상수형과 열거형.cs" />
@@ -28,6 +31,7 @@
     <None Include="오버로딩.cs" />
     <None Include="ref and out.cs" />
     <None Include="접근한정자_은닉성.cs" />
+    <None Include="클래스 형식 변환.cs" />
   </ItemGroup>
 
 </Project>
