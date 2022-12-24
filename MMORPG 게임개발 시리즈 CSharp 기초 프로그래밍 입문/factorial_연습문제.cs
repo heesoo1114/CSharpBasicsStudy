@@ -5,7 +5,7 @@ namespace MMORPG_게임개발_시리즈_CSharp_기초_프로그래밍_입문
     internal class Test
     {
         #region 내가 푼 Factorial 연습문제
-        /*static int Factorial(int number)
+        static int Factorial(int number)
         {
             // for문으로 i를 계속 - 시켜 number에 계속 곱해주었다.
             for (int i = number - 1; i > 0; i--)
@@ -20,7 +20,7 @@ namespace MMORPG_게임개발_시리즈_CSharp_기초_프로그래밍_입문
         {
             int num = 5;
             Console.WriteLine(Factorial(num));
-        }*/
+        }
         #endregion
 
         #region 강의에서 풀어준 Factorial 연습문제
