@@ -4,7 +4,7 @@ namespace MMORPG_게임개발_시리즈_CSharp_기초_프로그래밍_입문
 {
     internal class Test
     {
-        #region 내가 푼 Factorial 연습문제
+        #region 나의 풀이
         static int Factorial(int number)
         {
             // for문으로 i를 계속 - 시켜 number에 계속 곱해주었다.
@@ -23,7 +23,7 @@ namespace MMORPG_게임개발_시리즈_CSharp_기초_프로그래밍_입문
         }
         #endregion
 
-        #region 강의에서 풀어준 Factorial 연습문제
+        #region 강의에서 풀어주는 풀이
         static int Factorial(int number)
         {
             return number * Factorial(number - 1);
