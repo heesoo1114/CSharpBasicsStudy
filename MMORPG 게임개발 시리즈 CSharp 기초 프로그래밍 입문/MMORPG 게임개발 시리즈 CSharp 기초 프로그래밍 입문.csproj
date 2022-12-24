@@ -9,6 +9,7 @@
   <ItemGroup>
     <Compile Remove="0-Test.cs" />
     <Compile Remove="const and enum.cs" />
+    <Compile Remove="factorial_연습문제.cs" />
     <Compile Remove="overloading.cs" />
     <Compile Remove="ref and out.cs" />
   </ItemGroup>
@@ -16,6 +17,7 @@
   <ItemGroup>
     <None Include="0-Test.cs" />
     <None Include="const and enum.cs" />
+    <None Include="factorial_연습문제.cs" />
     <None Include="overloading.cs" />
     <None Include="ref and out.cs" />
   </ItemGroup>
