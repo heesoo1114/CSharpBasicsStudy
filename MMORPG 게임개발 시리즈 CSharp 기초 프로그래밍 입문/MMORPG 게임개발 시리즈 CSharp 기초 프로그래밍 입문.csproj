@@ -9,6 +9,7 @@
   <ItemGroup>
     <Compile Remove="0-Test.cs" />
     <Compile Remove="2차원 배열.cs" />
+    <Compile Remove="3. 자료구조 기초\오름차순 정렬_연습문제.cs" />
     <Compile Remove="Dictionary.cs" />
     <Compile Remove="factorial_연습문제.cs" />
     <Compile Remove="List.cs" />
@@ -22,6 +23,7 @@
     <Compile Remove="1. 객체지향\클래스 형식 변환.cs" />
     <Compile Remove="문자열.cs" />
     <Compile Remove="배열.cs" />
+    <Compile Remove="배열관련_연습문제.cs" />
     <Compile Remove="복사와 참조.cs" />
     <Compile Remove="상속_상속성.cs" />
     <Compile Remove="상수형과 열거형.cs" />
@@ -36,6 +38,10 @@
     <Compile Remove="2. 코드의 흐름 제어\ref and out.cs" />
     <Compile Remove="2. 코드의 흐름 제어\오버로딩.cs" />
     <Compile Remove="클래스 형식 변환.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="3. 자료구조 기초\오름차순 정렬_연습문제.cs" />
   </ItemGroup>
 
   <ItemGroup>
