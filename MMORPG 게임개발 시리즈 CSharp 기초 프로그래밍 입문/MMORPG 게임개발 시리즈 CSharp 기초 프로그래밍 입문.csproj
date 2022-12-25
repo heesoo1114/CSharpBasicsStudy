@@ -10,6 +10,12 @@
     <Compile Remove="0-Test.cs" />
     <Compile Remove="2차원 배열.cs" />
     <Compile Remove="3. 자료구조 기초\오름차순 정렬_연습문제.cs" />
+    <Compile Remove="4. 알아두면 유용한 문법\Delegate.cs" />
+    <Compile Remove="4. 알아두면 유용한 문법\Event.cs" />
+    <Compile Remove="4. 알아두면 유용한 문법\Generic.cs" />
+    <Compile Remove="4. 알아두면 유용한 문법\Interface.cs" />
+    <Compile Remove="4. 알아두면 유용한 문법\Nullable.cs" />
+    <Compile Remove="4. 알아두면 유용한 문법\Property.cs" />
     <Compile Remove="Dictionary.cs" />
     <Compile Remove="factorial_연습문제.cs" />
     <Compile Remove="List.cs" />
@@ -66,6 +72,12 @@
     <None Include="0-Test.cs" />
     <None Include="3. 자료구조 기초\List.cs" />
     <None Include="3. 자료구조 기초\배열.cs" />
+    <None Include="4. 알아두면 유용한 문법\Delegate.cs" />
+    <None Include="4. 알아두면 유용한 문법\Event.cs" />
+    <None Include="4. 알아두면 유용한 문법\Generic.cs" />
+    <None Include="4. 알아두면 유용한 문법\Interface.cs" />
+    <None Include="4. 알아두면 유용한 문법\Nullable.cs" />
+    <None Include="4. 알아두면 유용한 문법\Property.cs" />
   </ItemGroup>
 
 </Project>
