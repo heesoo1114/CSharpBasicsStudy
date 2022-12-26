@@ -16,6 +16,7 @@
     <Compile Remove="4. 알아두면 유용한 문법\Interface.cs" />
     <Compile Remove="4. 알아두면 유용한 문법\Nullable.cs" />
     <Compile Remove="4. 알아두면 유용한 문법\Property.cs" />
+    <Compile Remove="4. 알아두면 유용한 문법\Reflection.cs" />
     <Compile Remove="Dictionary.cs" />
     <Compile Remove="factorial_연습문제.cs" />
     <Compile Remove="List.cs" />
@@ -78,6 +79,7 @@
     <None Include="4. 알아두면 유용한 문법\Interface.cs" />
     <None Include="4. 알아두면 유용한 문법\Nullable.cs" />
     <None Include="4. 알아두면 유용한 문법\Property.cs" />
+    <None Include="4. 알아두면 유용한 문법\Reflection.cs" />
   </ItemGroup>
 
 </Project>
