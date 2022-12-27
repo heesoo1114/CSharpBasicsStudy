@@ -14,6 +14,7 @@
     <Compile Remove="4. 알아두면 유용한 문법\Event.cs" />
     <Compile Remove="4. 알아두면 유용한 문법\Generic.cs" />
     <Compile Remove="4. 알아두면 유용한 문법\Interface.cs" />
+    <Compile Remove="4. 알아두면 유용한 문법\Lamda.cs" />
     <Compile Remove="4. 알아두면 유용한 문법\Nullable.cs" />
     <Compile Remove="4. 알아두면 유용한 문법\Property.cs" />
     <Compile Remove="4. 알아두면 유용한 문법\Reflection.cs" />
@@ -77,6 +78,7 @@
     <None Include="4. 알아두면 유용한 문법\Event.cs" />
     <None Include="4. 알아두면 유용한 문법\Generic.cs" />
     <None Include="4. 알아두면 유용한 문법\Interface.cs" />
+    <None Include="4. 알아두면 유용한 문법\Lamda.cs" />
     <None Include="4. 알아두면 유용한 문법\Nullable.cs" />
     <None Include="4. 알아두면 유용한 문법\Property.cs" />
     <None Include="4. 알아두면 유용한 문법\Reflection.cs" />
