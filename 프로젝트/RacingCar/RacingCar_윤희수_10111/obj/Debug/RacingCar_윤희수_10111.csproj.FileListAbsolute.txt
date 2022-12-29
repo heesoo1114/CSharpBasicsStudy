@@ -1,0 +1,11 @@
+D:\visual stuidio code\RacingCar_윤희수_10111\RacingCar_윤희수_10111\bin\Debug\RacingCar_윤희수_10111.exe.config
+D:\visual stuidio code\RacingCar_윤희수_10111\RacingCar_윤희수_10111\bin\Debug\RacingCar_윤희수_10111.exe
+D:\visual stuidio code\RacingCar_윤희수_10111\RacingCar_윤희수_10111\bin\Debug\RacingCar_윤희수_10111.pdb
+D:\visual stuidio code\RacingCar_윤희수_10111\RacingCar_윤희수_10111\obj\Debug\RacingCar_윤희수_10111.csproj.AssemblyReference.cache
+D:\visual stuidio code\RacingCar_윤희수_10111\RacingCar_윤희수_10111\obj\Debug\RacingCar_윤희수_10111.csproj.SuggestedBindingRedirects.cache
+D:\visual stuidio code\RacingCar_윤희수_10111\RacingCar_윤희수_10111\obj\Debug\RacingCar_윤희수_10111.Form1.resources
+D:\visual stuidio code\RacingCar_윤희수_10111\RacingCar_윤희수_10111\obj\Debug\RacingCar_윤희수_10111.Properties.Resources.resources
+D:\visual stuidio code\RacingCar_윤희수_10111\RacingCar_윤희수_10111\obj\Debug\RacingCar_윤희수_10111.csproj.GenerateResource.cache
+D:\visual stuidio code\RacingCar_윤희수_10111\RacingCar_윤희수_10111\obj\Debug\RacingCar_윤희수_10111.csproj.CoreCompileInputs.cache
+D:\visual stuidio code\RacingCar_윤희수_10111\RacingCar_윤희수_10111\obj\Debug\RacingCar_윤희수_10111.exe
+D:\visual stuidio code\RacingCar_윤희수_10111\RacingCar_윤희수_10111\obj\Debug\RacingCar_윤희수_10111.pdb
