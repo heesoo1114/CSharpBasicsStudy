@@ -11,13 +11,12 @@ namespace MMORPG_게임개발_시리즈_CSharp__자료구조와_알고리즘
             
             Console.CursorVisible = false;
 
-            string CIRCLE = "\u25cf";
-
             const int WAIT_TICK = 1000 / 30;
             int lastTick = 0;
             #endregion
 
-            board.Initialize();
+            board.Initialize(25);
+            
 
             while (true)
             {
@@ -33,22 +32,11 @@ namespace MMORPG_게임개발_시리즈_CSharp__자료구조와_알고리즘
                 #endregion
 
                 // 입력
-
                 // 로직
-
                 // 렌더링
 
                 Console.SetCursorPosition(0, 0);
-
-                for (int i = 0; i < 25; i++)
-                {
-                    for (int j = 0; j < 25; j++)
-                    {
-                        Console.ForegroundColor = ConsoleColor.Green;
-                        Console.Write(CIRCLE);
-                    }
-                    Console.WriteLine();
-                }
+                board.Render();
             }
         }
     }
