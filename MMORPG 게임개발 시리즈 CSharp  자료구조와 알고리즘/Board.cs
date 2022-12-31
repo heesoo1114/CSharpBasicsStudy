@@ -8,10 +8,15 @@ namespace MMORPG_게임개발_시리즈_CSharp__자료구조와_알고리즘
 {
     class Board
     {
-        public TileType[,] _tile;
-        public int _size;
+        public TileType[,] Tile { get; private set; }
+        public int Size { get; private set; }
 
         public string CIRCLE = "\u25cf";
+
+        public int DestX { get; private set; }
+        public int DestY { get; private set; }
+
+        Player _player = new Player();
 
         public enum TileType
         {
@@ -20,7 +25,7 @@ namespace MMORPG_게임개발_시리즈_CSharp__자료구조와_알고리즘
         }
 
         // 맵 생성
-        public void Initialize(int size)
+        public void Initialize(int size, Player player)
         {
             if (size % 2 == 0)
             {
@@ -29,8 +34,13 @@ namespace MMORPG_게임개발_시리즈_CSharp__자료구조와_알고리즘
                 return;
             }
 
-            _tile = new TileType[size, size];
-            _size = size;
+            _player = player;
+
+            Tile = new TileType[size, size];
+            Size = size;
+
+            DestY = size - 2;
+            DestX = size - 2;
 
             // GenerateByBinaryTree();
             GenerateBySideWinder();
@@ -39,60 +49,60 @@ namespace MMORPG_게임개발_시리즈_CSharp__자료구조와_알고리즘
         void GenerateBySideWinder()
         {
             // 길을 다 막아버리는 작업
-            for (int y = 0; y < _size; y++)
+            for (int y = 0; y < Size; y++)
             {
-                for (int x = 0; x < _size; x++)
+                for (int x = 0; x < Size; x++)
                 {
                     if (x % 2 == 0 || y % 2 == 0)
                     {
-                        _tile[y, x] = TileType.Wall;
+                        Tile[y, x] = TileType.Wall;
                     }
                     else
                     {
-                        _tile[y, x] = TileType.Empty;
+                        Tile[y, x] = TileType.Empty;
                     }
                 }
             }
 
             // 랜덤으로 우측 혹으느 아래로 길을 뚫는 작업
             Random rand = new Random();
-            for (int y = 0; y < _size; y++)
+            for (int y = 0; y < Size; y++)
             {
                 int count = 1;
-                for (int x = 0; x < _size; x++)
+                for (int x = 0; x < Size; x++)
                 {
                     if (x % 2 == 0 || y % 2 == 0)
                     {
                         continue;
                     }
 
-                    if (y == _size - 2 && x == _size - 2)
+                    if (y == Size - 2 && x == Size - 2)
                     {
                         continue;
                     }
 
-                    if (y == _size - 2)
+                    if (y == Size - 2)
                     {
-                        _tile[y, x + 1] = TileType.Empty;
+                        Tile[y, x + 1] = TileType.Empty;
                         continue;
                     }
-                    if (x == _size - 2)
+                    if (x == Size - 2)
                     {
-                        _tile[y + 1, x] = TileType.Empty;
+                        Tile[y + 1, x] = TileType.Empty;
                         continue;
                     }
 
                     // 오른쪽
                     if (rand.Next(0, 2) == 0)
                     {
-                        _tile[y, x + 1] = TileType.Empty;
+                        Tile[y, x + 1] = TileType.Empty;
                         count++;
                     }
                     // 왼쪽
                     else
                     {
                         int randomIndex = rand.Next(0, count);
-                        _tile[y + 1, x - randomIndex * 2] = TileType.Empty;
+                        Tile[y + 1, x - randomIndex * 2] = TileType.Empty;
                         count = 1;
                     }
                 }
@@ -102,59 +112,59 @@ namespace MMORPG_게임개발_시리즈_CSharp__자료구조와_알고리즘
         void GenerateByBinaryTree()
         {
             // 길을 다 막아버리는 작업
-            for (int y = 0; y < _size; y++)
+            for (int y = 0; y < Size; y++)
             {
-                for (int x = 0; x < _size; x++)
+                for (int x = 0; x < Size; x++)
                 {
                     if (x % 2 == 0 || y % 2 == 0)
                     {
-                        _tile[y, x] = TileType.Wall;
+                        Tile[y, x] = TileType.Wall;
                     }
                     else
                     {
-                        _tile[y, x] = TileType.Empty;
+                        Tile[y, x] = TileType.Empty;
                     }
                 }
             }
 
             // 랜덤으로 우측 혹으느 아래로 길을 뚫는 작업
             Random rand = new Random();
-            for (int y = 0; y < _size; y++)
+            for (int y = 0; y < Size; y++)
             {
-                for (int x = 0; x < _size; x++)
+                for (int x = 0; x < Size; x++)
                 {
                     if (x % 2 == 0 || y % 2 == 0)
                     {
                         continue;
                     }
 
-                    if (y == _size - 2 && x == _size - 2)
+                    if (y == Size - 2 && x == Size - 2)
                     {
                         continue;
                     }
 
                     // 끝까지 갔을 때 무조건 오른쪽
-                    if (y == _size - 2)
+                    if (y == Size - 2)
                     {
-                        _tile[y, x + 1] = TileType.Empty;
+                        Tile[y, x + 1] = TileType.Empty;
                         continue;
                     }
                     // 끝까지 갔을 때 무조건 왼쪽
-                    if (x == _size - 2)
+                    if (x == Size - 2)
                     {
-                        _tile[y + 1, x] = TileType.Empty;
+                        Tile[y + 1, x] = TileType.Empty;
                         continue;
                     }
 
                     // 오른쪽
                     if (rand.Next(0, 2) == 0)
                     {
-                        _tile[y, x + 1] = TileType.Empty;
+                        Tile[y, x + 1] = TileType.Empty;
                     }
                     // 왼쪽
                     else
                     {
-                        _tile[y + 1, x] = TileType.Empty;
+                        Tile[y + 1, x] = TileType.Empty;
                     }
                 }
             }
@@ -165,11 +175,24 @@ namespace MMORPG_게임개발_시리즈_CSharp__자료구조와_알고리즘
         {
             ConsoleColor prevColor = Console.ForegroundColor;
 
-            for (int y = 0; y < _size; y++)
+            for (int y = 0; y < Size; y++)
             {
-                for (int x = 0; x < _size; x++)
+                for (int x = 0; x < Size; x++)
                 {
-                    Console.ForegroundColor = GetTileColor(_tile[y, x]);  
+                    // 플레이어 좌표 불러오기
+                    if (y == _player.PosY && x == _player.PosX)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Blue;
+                    }
+                    else if (y == DestY && x == DestX)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                    }
+                    else
+                    {
+                        Console.ForegroundColor = GetTileColor(Tile[y, x]);
+                    }
+
                     Console.Write(CIRCLE);
                 }
                 Console.WriteLine();
