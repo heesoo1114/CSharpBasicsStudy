@@ -6,4 +6,12 @@
     <RootNamespace>MMORPG_게임개발_시리즈_CSharp__자료구조와_알고리즘</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Sample.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Sample.cs" />
+  </ItemGroup>
+
 </Project>
