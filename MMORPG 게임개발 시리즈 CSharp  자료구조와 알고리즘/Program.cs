@@ -7,6 +7,8 @@ namespace MMORPG_게임개발_시리즈_CSharp__자료구조와_알고리즘
         static void Main(string[] args)
         {
             #region 변수 관리
+            Board board = new Board();
+            
             Console.CursorVisible = false;
 
             string CIRCLE = "\u25cf";
@@ -14,6 +16,8 @@ namespace MMORPG_게임개발_시리즈_CSharp__자료구조와_알고리즘
             const int WAIT_TICK = 1000 / 30;
             int lastTick = 0;
             #endregion
+
+            board.Initialize();
 
             while (true)
             {
