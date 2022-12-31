@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>MMORPG_게임개발_시리즈_CSharp__자료구조와_알고리즘</RootNamespace>
+  </PropertyGroup>
+
+</Project>
