@@ -1,0 +1,33 @@
+C:\Users\user\source\repos\Tetris_10112\Tetris_10112\bin\Debug\Tetris_10112.exe.config
+C:\Users\user\source\repos\Tetris_10112\Tetris_10112\bin\Debug\Tetris_10112.exe
+C:\Users\user\source\repos\Tetris_10112\Tetris_10112\bin\Debug\Tetris_10112.pdb
+C:\Users\user\source\repos\Tetris_10112\Tetris_10112\obj\Debug\Tetris_10112.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Tetris_10112\Tetris_10112\obj\Debug\Tetris_10112.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\Tetris_10112\Tetris_10112\obj\Debug\Tetris_10112.Form1.resources
+C:\Users\user\source\repos\Tetris_10112\Tetris_10112\obj\Debug\Tetris_10112.Properties.Resources.resources
+C:\Users\user\source\repos\Tetris_10112\Tetris_10112\obj\Debug\Tetris_10112.csproj.GenerateResource.cache
+C:\Users\user\source\repos\Tetris_10112\Tetris_10112\obj\Debug\Tetris_10112.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Tetris_10112\Tetris_10112\obj\Debug\Tetris_10112.exe
+C:\Users\user\source\repos\Tetris_10112\Tetris_10112\obj\Debug\Tetris_10112.pdb
+C:\Users\user\Unity\source\repos\Tetris_10112\Tetris_10112\bin\Debug\Tetris_10112.exe.config
+C:\Users\user\Unity\source\repos\Tetris_10112\Tetris_10112\bin\Debug\Tetris_10112.exe
+C:\Users\user\Unity\source\repos\Tetris_10112\Tetris_10112\bin\Debug\Tetris_10112.pdb
+C:\Users\user\Unity\source\repos\Tetris_10112\Tetris_10112\obj\Debug\Tetris_10112.csproj.AssemblyReference.cache
+C:\Users\user\Unity\source\repos\Tetris_10112\Tetris_10112\obj\Debug\Tetris_10112.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Unity\source\repos\Tetris_10112\Tetris_10112\obj\Debug\Tetris_10112.Form1.resources
+C:\Users\user\Unity\source\repos\Tetris_10112\Tetris_10112\obj\Debug\Tetris_10112.Properties.Resources.resources
+C:\Users\user\Unity\source\repos\Tetris_10112\Tetris_10112\obj\Debug\Tetris_10112.csproj.GenerateResource.cache
+C:\Users\user\Unity\source\repos\Tetris_10112\Tetris_10112\obj\Debug\Tetris_10112.csproj.CoreCompileInputs.cache
+C:\Users\user\Unity\source\repos\Tetris_10112\Tetris_10112\obj\Debug\Tetris_10112.exe
+C:\Users\user\Unity\source\repos\Tetris_10112\Tetris_10112\obj\Debug\Tetris_10112.pdb
+D:\visual stuidio code\Tetris_10112_3\Tetris_10112\bin\Debug\Tetris_10112.exe.config
+D:\visual stuidio code\Tetris_10112_3\Tetris_10112\bin\Debug\Tetris_10112.exe
+D:\visual stuidio code\Tetris_10112_3\Tetris_10112\bin\Debug\Tetris_10112.pdb
+D:\visual stuidio code\Tetris_10112_3\Tetris_10112\obj\Debug\Tetris_10112.csproj.AssemblyReference.cache
+D:\visual stuidio code\Tetris_10112_3\Tetris_10112\obj\Debug\Tetris_10112.csproj.SuggestedBindingRedirects.cache
+D:\visual stuidio code\Tetris_10112_3\Tetris_10112\obj\Debug\Tetris_10112.Form1.resources
+D:\visual stuidio code\Tetris_10112_3\Tetris_10112\obj\Debug\Tetris_10112.Properties.Resources.resources
+D:\visual stuidio code\Tetris_10112_3\Tetris_10112\obj\Debug\Tetris_10112.csproj.GenerateResource.cache
+D:\visual stuidio code\Tetris_10112_3\Tetris_10112\obj\Debug\Tetris_10112.csproj.CoreCompileInputs.cache
+D:\visual stuidio code\Tetris_10112_3\Tetris_10112\obj\Debug\Tetris_10112.exe
+D:\visual stuidio code\Tetris_10112_3\Tetris_10112\obj\Debug\Tetris_10112.pdb
