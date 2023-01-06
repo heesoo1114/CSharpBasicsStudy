@@ -3,12 +3,12 @@ using System.Collections.Generic;
 
 namespace MMORPG_게임개발_시리즈_CSharp__자료구조와_알고리즘
 {
-    class PriorityQueue
+    class PriorityQueue<T> where T : IComparable<T>
     {
-        List<int> _heap = new List<int>();
-        
+        List<T> _heap = new List<T>();
+
         // 0(logN)
-        public void Push(int data)
+        public void Push(T data)
         {
             // 힙의 맨 끝에 새로운 데이터 삽입
             _heap.Add(data);
@@ -19,15 +19,15 @@ namespace MMORPG_게임개발_시리즈_CSharp__자료구조와_알고리즘
             {
                 // 부모 노드 구하기
                 int next = (now - 1) / 2;
-                
+
                 // 부모가 자식보다 크면
-                if (_heap[now] < _heap[next])
+                if (_heap[now].CompareTo(_heap[next]) < 0)
                 {
                     break;
                 }
 
                 // 두 값 교체
-                int temp = _heap[now];
+                T temp = _heap[now];
                 _heap[now] = _heap[next];
                 _heap[next] = temp;
 
@@ -37,10 +37,10 @@ namespace MMORPG_게임개발_시리즈_CSharp__자료구조와_알고리즘
         }
 
         // 0(logN)
-        public int Pop()
+        public T Pop()
         {
             // 반환할 데이터를 따로 저장
-            int ret = _heap[0];
+            T ret = _heap[0];
 
             // 마지막 데이터를 루트로 이동
             int lastIndex = _heap.Count - 1;
@@ -58,13 +58,13 @@ namespace MMORPG_게임개발_시리즈_CSharp__자료구조와_알고리즘
 
                 int next = now;
                 // 왼쪽 노드가 현재 노드보다 크면
-                if (left <= lastIndex && _heap[next] < _heap[left])
+                if (left <= lastIndex && _heap[next].CompareTo(_heap[left]) < 0)
                 {
                     // 왼쪽으로 이동
                     next = left;
                 }
                 // 오른쪽 노드가 현재 노드보다 크면
-                if (right <= lastIndex && _heap[next] < _heap[right])
+                if (right <= lastIndex && _heap[next].CompareTo(_heap[right]) < 0)
                 {
                     // 오른쪽으로 이동
                     next = right;
@@ -77,7 +77,7 @@ namespace MMORPG_게임개발_시리즈_CSharp__자료구조와_알고리즘
                 }
 
                 // 두 값 교체
-                int temp = _heap[now];
+                T temp = _heap[now];
                 _heap[now] = _heap[next];
                 _heap[next] = temp;
 
@@ -94,36 +94,35 @@ namespace MMORPG_게임개발_시리즈_CSharp__자료구조와_알고리즘
         }
     }
 
+    class knight : IComparable<knight>
+    {
+        public int Id { get; set; }
+
+        public int CompareTo(knight other)
+        {
+            if (Id == other.Id)
+            {
+                return 0;
+            }
+            return Id > other.Id ? 1 : -1;
+        }
+    }
+
     class Sample
     {
         static void Main(string[] args)
         {
-            PriorityQueue q = new PriorityQueue();
-            q.Push(3);
-            q.Push(2);
-            q.Push(4);
-            q.Push(1);
-            q.Push(5);
+            PriorityQueue<knight> q = new PriorityQueue<knight>();
+            q.Push(new knight() { Id = 20 });
+            q.Push(new knight() { Id = 30 });
+            q.Push(new knight() { Id = 40 });
+            q.Push(new knight() { Id = 10 });
+            q.Push(new knight() { Id = 05 });
 
             while (q.Count() > 0)
             {
-                // 기본적으로 큰 순서대로 정렬해서 나옴
-                Console.WriteLine(q.Pop());
+                Console.WriteLine(q.Pop().Id);
             }
-
-            // 가능한 방법
-            // 부호를 반대로 해서 작은 순서대로 정렬해서 나오게
-            /*PriorityQueue q = new PriorityQueue();
-            q.Push(-3);
-            q.Push(-2);
-            q.Push(-4);
-            q.Push(-1);
-            q.Push(-5);
-
-            while (q.Count() > 0)
-            {
-                Console.WriteLine(-q.Pop());
-            }*/
         }
     }
 }
